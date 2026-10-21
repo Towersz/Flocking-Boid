@@ -577,11 +577,11 @@ MonoBehaviour:
   boidPrefab: {fileID: 4301776694528915953, guid: 931a2c91d8fb58d4887faf7f68106dd4, type: 3}
   count: 150
   spawnRadius: 8
-  sepWeight: 1.6
-  aliWeight: 1
-  cohWeight: 0.9
-  boundsRadius: 18
-  lookAhead: 2.5
+  sepWeight: 3
+  aliWeight: 6
+  cohWeight: 3
+  boundsRadius: 29.9
+  lookAhead: 3.67
   obstacleMask:
     serializedVersion: 2
     m_Bits: 8
