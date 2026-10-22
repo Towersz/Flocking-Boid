@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Boid
   maxSpeed: 12
-  maxForce: 35
+  maxForce: 21.8
   perception: 5
   boidMask:
     serializedVersion: 2
