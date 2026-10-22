@@ -539,7 +539,7 @@ Transform:
   m_GameObject: {fileID: 1132749828}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -21.8, y: 0, z: -12.6}
   m_LocalScale: {x: 30, y: 1, z: 30}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -575,9 +575,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FlockManager
   boidPrefab: {fileID: 4301776694528915953, guid: 931a2c91d8fb58d4887faf7f68106dd4, type: 3}
-  count: 150
+  count: 200
   spawnRadius: 8
-  sepWeight: 3
+  sepWeight: 0
   aliWeight: 6
   cohWeight: 3
   boundsRadius: 29.9
@@ -585,7 +585,7 @@ MonoBehaviour:
   obstacleMask:
     serializedVersion: 2
     m_Bits: 8
-  predator: {fileID: 0}
+  predator: {fileID: 3539714132218810449, guid: d16c2a6284ede5c499461b6763319305, type: 3}
   fleeRadius: 5
   fleeWeight: 4
 --- !u!4 &1342154749
@@ -709,7 +709,7 @@ Transform:
   m_GameObject: {fileID: 1863280523}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -60.81, y: 10, z: 53.70792}
+  m_LocalPosition: {x: -5.9, y: 10, z: 53.70792}
   m_LocalScale: {x: 121.83, y: 20, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -821,7 +821,7 @@ Transform:
   m_GameObject: {fileID: 1965620417}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 83.6, y: 10, z: -31.2}
+  m_LocalPosition: {x: 57.4, y: 10, z: -31.2}
   m_LocalScale: {x: 72.2, y: 20, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -154,9 +154,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6f297fc489363b48a560019fd02962a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Boid
-  maxSpeed: 12.23
-  maxForce: 25.8
-  perception: 3.25
+  maxSpeed: 12
+  maxForce: 35
+  perception: 5
   boidMask:
     serializedVersion: 2
     m_Bits: 64
